@@ -1,0 +1,21 @@
+Proposta da parte avaliativa de CG:
+
+1 - Se organizar em duplas ou em trios (não podem fazer sozinhos ou em grupos com mais de três colegas);
+
+2 - Desenvolver um ambiente virtual utilizando-se da OpenGL contendo geometrias que façam referência
+à FURG e/ou ao C3, tais como logos, instalações prediais, laboratórios, etc. É fundamental que a(s)
+geometria(s) seja(m) algo que corresponda(m) aos nossos espaços. Preferencialmente, a implementação
+deve ser realizada em ANSI C ou C++, mas vocês podem implementar em outras linguagens de programação
+caso desejarem;
+
+3 - O código deve conter (vide pesos):
+    (25%) Modelagem das geometrias (ambiente a ser reproduzido);
+    (20%) Funções para translação, rotação e escala implementadas com as matrizes necessárias para serem aplicadas no ambiente utilizando-se da glMultMatrix();
+    (15%) Funções para as projeções perspectiva e ortogonal implementadas com as matrizes necessárias para serem aplicadas no ambiente utilizando-se da glMultMatrix();
+    (15%) Aplicação do modelo de iluminação (Phong) e de tonalização (Gouraud) estudados (podem utilizar as rotinas disponíveis na OpenGL);
+    (15%) Implementar e aplicar em alguma parte do ambiente ao menos um dos algoritmos de rasterização (Digital Differential Analyzer - DDA ou Bresenham);
+    (10%) Aplicação de um dos algoritmos de visibilidade estudados (podem utilizar as rotinas disponíveis na OpenGL).
+ 
+O que deve ser enviado? Um arquivo zip contendo:
+um arquivo-texto (.txt, .doc, .pdf, etc) com as matrículas e os nomes dos integrantes do grupo, além de um pequeno resumo da proposta do projeto;
+o código-fonte e dependências, se necessárias (não disponíveis).
